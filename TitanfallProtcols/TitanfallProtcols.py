@@ -1,9 +1,6 @@
 
 import time
 
-import os
-def clear():
-  os.system("clear")
 
 titanClass = "Vanguard."
 titanName = "Bravo Tango-Seven Two Seven Four."
@@ -14,7 +11,7 @@ titanProtcolTwo = "Uphold the Mission."
 titanProtocolThree = "Protect The Pilot."
 print("System rebooting...")
 time.sleep(3)
-clear()
+
 
 print("Datacore system online.")
 time.sleep(3)
@@ -72,7 +69,7 @@ print("Pilot location: Searching...")
 time.sleep(3)
 print("Pilot embarked.")
 time.sleep(2)
-clear()
+
 print("Pilot Registered:", lastName + ", " + firstName)
 time.sleep(2)
 print("Starting control transfer....")
