@@ -1,2 +1,8 @@
 #project start 1/23/23 
 print("Welcome to Khonjin A Day!")
+
+readEpisode = open('episode list.txt', "r")
+readEpisodeContents = readEpisode.read()
+print(readEpisodeContents)
+
+readEpisode.close()
