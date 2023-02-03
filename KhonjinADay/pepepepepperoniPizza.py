@@ -8,7 +8,7 @@ readEpisode = open('episodeList.txt', "r")
 
 #readEpisode.close()
 
-#with open("episodeList.txt", "r") as file:
+#with open("episodeList.txt", "r") 
  #   allText = file.read()
   #  word = list(map(str, allText.split()))
 
